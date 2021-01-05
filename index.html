@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Seymour Liao</title>
+  <!-- bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,900&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/5d277af08c.js" crossorigin="anonymous"></script>
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- nav bar -->
+  <!--  fixed-top style="width: 150px;" -->
+  <div class="container fixed-top nav-container-custom-styling">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <button class="navbar-toggler hamburger-custom-styling" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class='navbar-toggler-icon'></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="background-color: #1d2d50;">
+        <ul class="navbar-nav ml-auto flex-column">
+          <li class="nav-item">
+            <a class="nav-link" id="section-title" href="#introID">Introduction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="section-title" href="#aboutID">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="section-title" href="#ruminationsID">Ruminations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="section-title" href="#reflectionsID">Reflections</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="section-title" href="#skillsID">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="section-title" href="#contactID">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- title -->
+  <section id="introID">
+    <img class="intro-image" src="images/intro-image.jpeg" alt="">
+    <div class="intro container-fluid">
+      <h1>Seymour Liao</h1>
+      <h3>A data analyst.</h3>
+      <h4>[he/his/him]</h4>
+    </div>
+  </section>
+
+  <section id="aboutID">
+    <div class="about container-fluid">
+      <h2>About</h2>
+      <!-- <img class="about-image" src="images/circle-cropped.png" alt=""> -->
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis auteirure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </section>
+
+  <section id="ruminationsID">
+    <div class="ruminations container-fluid">
+      <h2>Ruminations</h2>
+      <p>When the pandemic hit and all city pools in Los Angeles closed, I found myself biking around my neighborhood for exercise.
+        This meant trips back and forth along the LA River (yes, LA has a river) and up into the surrounding hills and communities.
+        All of this time with my own thoughts lead to the following explorations via data. </p>
+    </div>
+    <!-- Carousel -->
+    <div class="row blog">
+      <div class="col-md-12 ruminations-carousel">
+        <div id="blogCarousel" class="carousel slide container-blog" data-ride="false">
+          <ol class="carousel-indicators">
+            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#blogCarousel" data-slide-to="1"></li>
+          </ol>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image">
+                      <!--Date-->
+                      <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Aug 01</span> </div>
+                      <!--Image-->
+                      <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body">
+                      <!--Heading-->
+                      <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>News Title</h5>
+                        </a>
+                      </div>
+                      <!--Data-->
+                      <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div>
+                      <!--Text-->
+                      <div class="item-box-blog-text">
+                        <p>Lorem ipsum dolor sit amet, adipiscing.</p>
+                      </div>
+                      <!--Read More Button-->
+                      <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image">
+                      <!--Date-->
+                      <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Aug 01</span> </div>
+                      <!--Image-->
+                      <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body">
+                      <!--Heading-->
+                      <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>News Title</h5>
+                        </a>
+                      </div>
+                      <!--Data-->
+                      <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div>
+                      <!--Text-->
+                      <div class="item-box-blog-text">
+                        <p>Lorem ipsum dolor sit amet, adipiscing.</p>
+                      </div>
+                      <!--Read More Button-->
+                      <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image">
+                      <!--Date-->
+                      <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Aug 01</span> </div>
+                      <!--Image-->
+                      <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body">
+                      <!--Heading-->
+                      <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>News Title</h5>
+                        </a>
+                      </div>
+                      <!--Data-->
+                      <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div>
+                      <!--Text-->
+                      <div class="item-box-blog-text">
+                        <p>Lorem ipsum dolor sit amet, adipiscing.</p>
+                      </div>
+                      <!--Read More Button-->
+                      <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--.row-->
+            </div>
+
+            <!--.item-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image">
+                      <!--Date-->
+                      <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Aug 01</span> </div>
+                      <!--Image-->
+                      <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body">
+                      <!--Heading-->
+                      <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>News Title</h5>
+                        </a>
+                      </div>
+                      <!--Data-->
+                      <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div>
+                      <!--Text-->
+                      <div class="item-box-blog-text">
+                        <p>Lorem ipsum dolor sit amet, adipiscing.</p>
+                      </div>
+                      <!--Read More Button-->
+                      <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image">
+                      <!--Date-->
+                      <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Aug 01</span> </div>
+                      <!--Image-->
+                      <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body">
+                      <!--Heading-->
+                      <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>News Title</h5>
+                        </a>
+                      </div>
+                      <!--Data-->
+                      <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div>
+                      <!--Text-->
+                      <div class="item-box-blog-text">
+                        <p>Lorem ipsum dolor sit amet, adipiscing.</p>
+                      </div>
+                      <!--Read More Button-->
+                      <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image">
+                      <!--Date-->
+                      <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Aug 01</span> </div>
+                      <!--Image-->
+                      <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body">
+                      <!--Heading-->
+                      <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>News Title</h5>
+                        </a>
+                      </div>
+                      <!--Data-->
+                      <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div>
+                      <!--Text-->
+                      <div class="item-box-blog-text">
+                        <p>Lorem ipsum dolor sit amet, adipiscing.</p>
+                      </div>
+                      <!--Read More Button-->
+                      <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--.row-->
+            </div>
+            <!--.item-->
+
+          </div>
+          <!--.carousel-inner-->
+        </div>
+        <!--.Carousel-->
+        <!-- <a class="carousel-control-prev" href="#blogCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#blogCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span> -->
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="reflectionsID">
+    <div class="reflections container-fluid">
+
+      <div>
+        <h2>Reflections</h2>
+        <p>I've often been asked for a resume walk in interviews. I've often asked people I've interviewed for a resume walk.
+          In both cases the goal is to understand what motivated an individual to make the choices [he/she/they] have made. This is my
+          resume walk, sans action verbs and quantified outcomes. This is about what has excited and motivated me along the way.</p>
+      </div>
+      <div class="jobs">
+        <h3>Princess Cruises & Holland America Group</h3>
+        <div class="row">
+          <div class="col-lg-8">
+            <p>Princess Cruises was my opportunity to apply all of my previous knowledge to a consumer facing industry. I started out as the
+              manager of a P&L. This ultimately led to working with consumer data, and where my love of "doing the numbers"
+              blossomed. I then grew into the Director of Strategic Analysis and Marketing for a wide assortment of businesses (casinos, retail boutiques, spas, excursions, etc.)
+              onboard the Princess brand. Ultimately I oversaw a group of nine analysts in two locations and supported
+              three major cruise brands.</p>
+          </div>
+          <div class="col-lg-4 align-self-center">
+            <img class="image-ship" src="images/circle-qm2-2.png" alt="">
+          </div>
+        </div>
+        <p class="photo-desc"><span class="photo">Photo:</span> Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+      <div class="jobs">
+        <h3>GE Wind Energy</h3>
+        <div class="row">
+          <div class="col-lg-8">
+            <p>Participating in a GE rotational program was one of the best post-MBA jobs for which I could have asked.
+              The fact that I was able to participate in such a program that was focused on renewable energy, a cause I deeply believe in, made it
+              even better. This experience taught me project finance, contract negotiation, how to analyze business risk and work internationally.
+            </p>
+          </div>
+          <div class="col-lg-4 align-self-center">
+            <img class="image-windfarm" src="images/circle-windfarm.png" alt="">
+          </div>
+        </div>
+        <p class="photo-desc"><span class="photo">Photo:</span> Arklow Bank offshore wind park, Arklow, Ireland. I provided financial support to the build
+          while based in London.</p>
+      </div>
+
+      <div class="jobs">
+        <h3>Kellogg School of Management</h3>
+        <div class="row">
+          <div class="col-lg-8">
+            <p>After having spent a decade studying and practicing engineering, I developed a curiosity in the the larger forces that drove the
+              initiation of big engineering projects - market demand, finance, organizational structures. I decided to go to
+              business school to satisfy those curiosities. </p>
+          </div>
+          <div class="col-lg-4 align-self-center">
+            <img class="image-kellogg" src="images/circle-reaching.png" alt="">
+          </div>
+        </div>
+        <p class="photo-desc"><span class="photo">Photo:</span> Bringing Reaching Out, a conference targeted to the LGBTQ+ MBA community, to the mid-west for the
+          first time was one of my favorite accomplishments while at Kellogg.</p>
+      </div>
+
+      <div class="jobs">
+        <h3>MIT / Stanford / Arup / Hughes Space & Communications</h3>
+        <div class="row">
+          <div class="col-lg-8">
+            <p>From a very young age I've always had an interest in structure. Architectural structures are be more than just beautiful,
+              they create space, which in turns creates community. Combine structure with mechanical systems and we have
+              machines that bring people together, both physically with transportation and intellectually with communication devices.
+              These interests fueled my early choices: earning both mechanical and civil (structural) engineering degrees, then
+              working for one of the world's foremost architectural engineering firms (Arup) and finally building communications satellites (Hughes Space & Communications).
+            </p>
+          </div>
+          <div class="col-lg-4 align-self-center">
+            <img class="image-sculpture" src="images/circle-sculpture.png" alt="">
+          </div>
+        </div>
+        <p class="photo-desc"><span class="photo">Photo:</span> One of my favorite projects, the bus shelters at at downtown LA's Union Station. Its functional, but also a piece of art.
+          I performed the analysis of the sculpture's structure.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skillsID">
+    <div class="skills container-fluid">
+      <h2>Skills</h2>
+
+      <div class="">
+        <h3>Management</h3>
+        <div class="column-1">
+          <ul class="no-bullet-list-left">
+            <li>P&L Management</li>
+            <li>Team leadership</li>
+            <li>Cross functional leadership</li>
+            <li>Project management</li>
+          </ul>
+        </div>
+        <div class="column-2">
+          <ul class="no-bullet-list-right">
+            <li>Strategic planning</li>
+            <li>Operations management</li>
+            <li>Financial planning & analysis</li>
+            <li>Agile</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="">
+        <h3>Tools</h3>
+        <div class="column-1">
+          <ul class="no-bullet-list-left">
+            <li>MS Excel</li>
+            <li>MS Powerpoint</li>
+            <li>MS Project</li>
+            <li>Tableau</li>
+            <li>Pandas</li>
+            <li>GeoPandas</li>
+            <li>Matplotlib</li>
+            <li>Seabourn</li>
+          </ul>
+        </div>
+        <div class="column-2">
+          <ul class="no-bullet-list-right">
+            <li>Beautiful Soup</li>
+            <li>Clarabridge</li>
+            <li>Business Objects</li>
+            <li>Cognos</li>
+            <li>Jira</li>
+            <li>OBIEE</li>
+            <li>Snowflake</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="">
+        <h3>Technologies</h3>
+        <div class="column-1">
+          <ul class="no-bullet-list-left">
+            <li>Python</li>
+            <li>PostgreSQL</li>
+            <li>Oracle SQL</li>
+            <li>Geospatial Analysis</li>
+            <li>Dimensional Modeling</li>
+          </ul>
+        </div>
+        <div class="column-2">
+          <ul class="no-bullet-list-right">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>Javascript</li>
+            <li>R</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="">
+        <h3>Languages</h3>
+        <div class="column-1">
+          <ul class="no-bullet-list-left">
+            <li>Spanish</li>
+          </ul>
+        </div>
+        <div class="column-2">
+          <ul class="no-bullet-list-right">
+            <li>Chinese</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contactID">
+    <img class="contacts-image" src="images/contacts-photo.jpg" alt="">
+    <div class="contact container-fluid">
+      <a class="icon-social" href="https://www.linkedin.com/in/seymourliao"><i class=" icon fab fa-linkedin-in fa-2x"></i></a>
+      <a class="icon-social" href="mailto:seymourliao@gmail.com"><i class="icon fas fa-envelope fa-2x"></i></a>
+      <a class="icon-social" href="https://twitter.com/Seymour_100"><i class="icon fab fa-twitter fa-2x"></i></a>
+      <h4>© Copyright 2020 Seymour Liao</h4>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <!-- Custom js -->
+  <script src="index.js"></script>
+
+  </script>
+</body>
+
+</html>
