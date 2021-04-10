@@ -1,0 +1,59 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+h5 {
+  text-align: left;
+}
+
+p {
+  padding: 0;
+}
+
+.table {
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.introduction {
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+}
+
+.main-text {
+  padding: 3% 25% 1% 25%;
+}
+
+.chart {
+  padding: 0 20% 0 20%;
+}
+
+.chart-feats {
+  padding: 0 15% 0 15%;
+}
+
+.chart_adu_data {
+  width: 100%;
+  object-fit: contain;
+}
+
+.map {
+  width: 70%;
+  object-fit: contain;
+}
+
+.footer {
+  text-align: center;
+}
+
+.icon-social {
+  padding: 0 1% 0 1%;
+}
+
+.icon-social:hover {
+  color: #545447;
+}
